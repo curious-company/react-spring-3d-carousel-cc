@@ -1,9 +1,9 @@
 {
-  "name": "react-spring-3d-carousel",
+  "name": "react-spring-3d-carousel-cc",
   "version": "1.2.1",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gutiguy/react-spring-3d-carousel"
+    "url": "git+https://github.com/curious-company/react-spring-3d-carousel-cc"
   },
   "description": "A 3D Carousel component for images built with React and utilizing react-spring for controlling slide transitions.",
   "main": "dist/bundle.js",
