@@ -15,36 +15,53 @@ export default class Example extends Component {
   slides: Slide[] = [
     {
       key: uuidv4(),
-      content: <img src="https://picsum.photos/800/801/?random" alt="1" />
+      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_1f58ddc11e.png" alt="1" />
     },
     {
       key: uuidv4(),
-      content: <img src="https://picsum.photos/800/802/?random" alt="2" />
+      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_1f58ddc11e.png" alt="2" />
     },
     {
       key: uuidv4(),
-      content: <img src="https://picsum.photos/600/803/?random" alt="3" />
+      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_1f58ddc11e.png" alt="1" />
     },
     {
       key: uuidv4(),
-      content: <img src="https://picsum.photos/800/500/?random" alt="4" />
+      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_1f58ddc11e.png" alt="2" />
     },
     {
       key: uuidv4(),
-      content: <img src="https://picsum.photos/800/804/?random" alt="6" />
+      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_1f58ddc11e.png" alt="3" />
     },
     {
       key: uuidv4(),
-      content: <img src="https://picsum.photos/500/800/?random" alt="7" />
+      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_1f58ddc11e.png" alt="4" />
     },
     {
       key: uuidv4(),
-      content: <img src="https://picsum.photos/800/600/?random" alt="8" />
+      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_1f58ddc11e.png" alt="6" />
     },
     {
       key: uuidv4(),
-      content: <img src="https://picsum.photos/805/800/?random" alt="9" />
-    }
+      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_1f58ddc11e.png" alt="7" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_1f58ddc11e.png" alt="8" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_1f58ddc11e.png" alt="9" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_1f58ddc11e.png" alt="8" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_1f58ddc11e.png" alt="9" />
+    },
+    
   ].map((slide, index) => {
     return { ...slide, onClick: () => this.setState({ goToSlide: index }) };
   });
@@ -57,7 +74,7 @@ export default class Example extends Component {
 
   render() {
     return (
-      <div style={{ width: "80%", height: "500px", margin: "0 auto" }}>
+      <div style={{ width: "50%", height: "40.9375rem", transform: "scale(2) translateX(50%)"}}>
         <Carousel
           slides={this.slides}
           goToSlide={this.state.goToSlide}

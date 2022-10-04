@@ -215,6 +215,7 @@ class Carousel extends Component<IProps, IState> {
                 offsetRadius={this.clampOffsetRadius(offsetRadius)}
                 index={presentableIndex}
                 animationConfig={animationConfig}
+                slidesTotal={this.getPresentableSlides().length}
               />
             )
           )}
