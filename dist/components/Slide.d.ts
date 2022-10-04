@@ -5,6 +5,7 @@ interface IProps {
     offsetRadius: number;
     index: number;
     animationConfig: object;
+    slidesTotal: number;
 }
-export default function Slide({ content, offsetRadius, index, animationConfig, onClick }: IProps): JSX.Element;
+export default function Slide({ content, offsetRadius, index, animationConfig, onClick, slidesTotal }: IProps): JSX.Element;
 export {};
