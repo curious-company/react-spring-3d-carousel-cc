@@ -78,7 +78,7 @@ export default function Slide({
       counter++
     }
 
-    counter = slidesToIgnoreFront + offsetRadius
+    counter = slidesToIgnoreFront + offsetRadius + 1
     while (counter < slidesTotal) {
       indexesToThrow.push(counter)
       

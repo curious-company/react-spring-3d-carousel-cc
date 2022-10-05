@@ -74,7 +74,9 @@ export default class Example extends Component {
 
   render() {
     return (
-      <div style={{ width: "50%", height: "40.9375rem", transform: "scale(2) translateX(50%)"}}>
+      <div style={{width: "100vw", overflow: "hidden"}}>
+
+      <div style={{ width: "50%", height: "40.9375rem", transform: "scale(2) translateX(25%)", background: "#04433D", zIndex:0}}>
         <Carousel
           slides={this.slides}
           goToSlide={this.state.goToSlide}
@@ -156,6 +158,7 @@ export default class Example extends Component {
             </button>
           </div>
         </div>
+      </div>
       </div>
     );
   }
