@@ -40,7 +40,8 @@ export default function Slide({
   const distanceFactor = 1 - Math.abs(offsetFromCenter / (offsetRadius + 5));
 
   const translateXoffset =
-    50 * (Math.abs(offsetFromCenter) / (offsetRadius + 9));
+    (5 * (Math.abs(offsetFromCenter) / (offsetRadius + 5)));
+    console.log(translateXoffset)
   let translateX = -50;
 
   if (offsetRadius !== 0) {
@@ -52,13 +53,13 @@ export default function Slide({
   }
 
   if (offsetFromCenter === 1) {
-    translateX += translateXoffset;
+    translateX += -2;
   } else if (offsetFromCenter === -1) {
-    translateX -= translateXoffset;
+    translateX -= -2;
   } else if (offsetFromCenter === 2) {
-    translateX += translateXoffset * 5.5;
+    translateX += 35;
   } else if (offsetFromCenter === -2) {
-    translateX -= translateXoffset * 5.5;
+    translateX -= 35;
   } 
 
 

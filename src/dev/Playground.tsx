@@ -15,51 +15,51 @@ export default class Example extends Component {
   slides: Slide[] = [
     {
       key: uuidv4(),
-      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_1f58ddc11e.png" alt="1" />
+      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_26774299ce.png" alt="1" />
     },
     {
       key: uuidv4(),
-      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_1f58ddc11e.png" alt="2" />
+      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_26774299ce.png" alt="2" />
     },
     {
       key: uuidv4(),
-      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_1f58ddc11e.png" alt="1" />
+      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_26774299ce.png" alt="1" />
     },
     {
       key: uuidv4(),
-      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_1f58ddc11e.png" alt="2" />
+      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_26774299ce.png" alt="2" />
     },
     {
       key: uuidv4(),
-      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_1f58ddc11e.png" alt="3" />
+      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_26774299ce.png" alt="3" />
     },
     {
       key: uuidv4(),
-      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_1f58ddc11e.png" alt="4" />
+      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_26774299ce.png" alt="4" />
     },
     {
       key: uuidv4(),
-      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_1f58ddc11e.png" alt="6" />
+      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_26774299ce.png" alt="6" />
     },
     {
       key: uuidv4(),
-      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_1f58ddc11e.png" alt="7" />
+      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_26774299ce.png" alt="7" />
     },
     {
       key: uuidv4(),
-      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_1f58ddc11e.png" alt="8" />
+      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_26774299ce.png" alt="8" />
     },
     {
       key: uuidv4(),
-      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_1f58ddc11e.png" alt="9" />
+      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_26774299ce.png" alt="9" />
     },
     {
       key: uuidv4(),
-      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_1f58ddc11e.png" alt="8" />
+      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_26774299ce.png" alt="8" />
     },
     {
       key: uuidv4(),
-      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_1f58ddc11e.png" alt="9" />
+      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_26774299ce.png" alt="9" />
     },
     
   ].map((slide, index) => {
