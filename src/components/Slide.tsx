@@ -41,7 +41,6 @@ export default function Slide({
 
   const translateXoffset =
     (5 * (Math.abs(offsetFromCenter) / (offsetRadius + 5)));
-    console.log(translateXoffset)
   let translateX = -50;
 
   if (offsetRadius !== 0) {

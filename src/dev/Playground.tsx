@@ -15,68 +15,90 @@ export default class Example extends Component {
   slides: Slide[] = [
     {
       key: uuidv4(),
-      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_26774299ce.png" alt="1" />
+      content: (
+        <img
+          src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Macadamia_Mafo_copy_fa4d045921.png"
+          width="514px"
+          height="655px"
+          alt="1"
+        />
+      ),
     },
     {
       key: uuidv4(),
-      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_26774299ce.png" alt="2" />
+      content: (
+        <img
+          src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Haselnuss_Mafo_copy_0ab5a17c8a.png"
+          width="514px"
+          height="655px"
+          alt="2"
+        />
+      ),
     },
     {
       key: uuidv4(),
-      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_26774299ce.png" alt="1" />
+      content: (
+        <img
+          src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Mandel_ungeschaelt_Mafo_copy_4414af8af0.png"
+          width="514px"
+          height="655px"
+          alt="1"
+        />
+      ),
     },
     {
       key: uuidv4(),
-      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_26774299ce.png" alt="2" />
+      content: (
+        <img
+          src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Mix3_Mafo_copy_d593fcc4b9.png"
+          width="514px"
+          height="655px"
+          alt="2"
+        />
+      ),
     },
     {
       key: uuidv4(),
-      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_26774299ce.png" alt="3" />
+      content: (
+        <img
+          src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_8ef92d4124.png"
+          width="514px"
+          height="655px"
+          alt="3"
+        />
+      ),
     },
     {
       key: uuidv4(),
-      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_26774299ce.png" alt="4" />
+      content: (
+        <img
+          src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_8ef92d4124.png"
+          width="514px"
+          height="655px"
+          alt="4"
+        />
+      ),
     },
-    {
-      key: uuidv4(),
-      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_26774299ce.png" alt="6" />
-    },
-    {
-      key: uuidv4(),
-      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_26774299ce.png" alt="7" />
-    },
-    {
-      key: uuidv4(),
-      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_26774299ce.png" alt="8" />
-    },
-    {
-      key: uuidv4(),
-      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_26774299ce.png" alt="9" />
-    },
-    {
-      key: uuidv4(),
-      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_26774299ce.png" alt="8" />
-    },
-    {
-      key: uuidv4(),
-      content: <img src="http://127.0.0.1:1337/uploads/nutperfect_120x184mm_Cashewbruch_Mafo_copy_26774299ce.png" alt="9" />
-    },
-    
   ].map((slide, index) => {
     return { ...slide, onClick: () => this.setState({ goToSlide: index }) };
   });
 
   onChangeInput = (e: React.ChangeEvent<HTMLInputElement>) => {
     this.setState({
-      [e.target.name]: parseInt(e.target.value, 10) || 0
+      [e.target.name]: parseInt(e.target.value, 10) || 0,
     });
   };
 
   render() {
     return (
-      <div style={{width: "100vw", overflow: "hidden"}}>
-
-      <div style={{ width: "50%", height: "40.9375rem", transform: "scale(2) translateX(25%)", background: "#04433D", zIndex:0}}>
+      <div
+        style={{
+          width: "100%",
+          height: "40.9375rem",
+          background: "#04433D",
+          zIndex: 0,
+        }}
+      >
         <Carousel
           slides={this.slides}
           goToSlide={this.state.goToSlide}
@@ -91,7 +113,7 @@ export default class Example extends Component {
             marginTop: "2rem",
             width: "50%",
             display: "flex",
-            justifyContent: "space-around"
+            justifyContent: "space-around",
           }}
         >
           <div>
@@ -158,7 +180,6 @@ export default class Example extends Component {
             </button>
           </div>
         </div>
-      </div>
       </div>
     );
   }
