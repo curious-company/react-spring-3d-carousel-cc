@@ -73,7 +73,7 @@ class Carousel extends Component<IProps, IState> {
 
   static defaultProps = {
     offsetRadius: 2,
-    animationConfig: { tension: 120, friction: 14 },
+    animationConfig: { duration: 250 },
     goToSlideDelay: DEFAULT_GO_TO_SLIDE_DELAY,
   };
 

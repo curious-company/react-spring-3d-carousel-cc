@@ -31,8 +31,7 @@ declare class Carousel extends Component<IProps, IState> {
     static defaultProps: {
         offsetRadius: number;
         animationConfig: {
-            tension: number;
-            friction: number;
+            duration: number;
         };
         goToSlideDelay: number;
     };
