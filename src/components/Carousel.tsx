@@ -4,6 +4,7 @@ import Slide from "./Slide";
 import leftNavigation from "../static/LeftNavigation.png";
 import rightNavigation from "../static/RightNavigation.png";
 import PropTypes from "prop-types";
+import * as d3 from "d3-ease"
 
 const Wrapper = styled.div`
   position: relative;
@@ -73,7 +74,7 @@ class Carousel extends Component<IProps, IState> {
 
   static defaultProps = {
     offsetRadius: 2,
-    animationConfig: { duration: 250 },
+    animationConfig: { duration: 250, easing: d3.easeBounce },
     goToSlideDelay: DEFAULT_GO_TO_SLIDE_DELAY,
   };
 

@@ -1,5 +1,6 @@
 import { Component } from "react";
 import PropTypes from "prop-types";
+import * as d3 from "d3-ease";
 interface IState {
     index: number;
     goToSlide: number | null;
@@ -32,6 +33,7 @@ declare class Carousel extends Component<IProps, IState> {
         offsetRadius: number;
         animationConfig: {
             duration: number;
+            easing: typeof d3.easeBounce;
         };
         goToSlideDelay: number;
     };
