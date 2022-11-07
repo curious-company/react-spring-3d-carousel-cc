@@ -74,7 +74,7 @@ class Carousel extends Component<IProps, IState> {
 
   static defaultProps = {
     offsetRadius: 2,
-    animationConfig: { duration: 250, easing: d3.easeBounce },
+    animationConfig: { duration: 250, easing: d3.easeQuadInOut },
     goToSlideDelay: DEFAULT_GO_TO_SLIDE_DELAY,
   };
 

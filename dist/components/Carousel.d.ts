@@ -33,7 +33,7 @@ declare class Carousel extends Component<IProps, IState> {
         offsetRadius: number;
         animationConfig: {
             duration: number;
-            easing: typeof d3.easeBounce;
+            easing: typeof d3.easeQuadInOut;
         };
         goToSlideDelay: number;
     };
